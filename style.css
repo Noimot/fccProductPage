@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #eee;
+    background: rgb(243, 243, 230);
     font-family: Arial, Helvetica, sans-serif;
 }
 .page-container{
@@ -64,3 +64,16 @@ header {
         text-transform: uppercase;
       }
      
+section{
+    width: 100%;
+    display: grid;
+   justify-content: center;
+   align-content: center;
+   gap: 15px;
+   grid-auto-flow: column;
+}
+
+.image-para{
+    color: rgba(48, 14, 33, 0.863);
+    font-family: monospace;
+}
