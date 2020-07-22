@@ -70,10 +70,16 @@ section{
    justify-content: center;
    align-content: center;
    gap: 15px;
-   grid-auto-flow: column;
+   grid-template-columns: repeat(3, auto);
 }
 
 .image-para{
     color: rgba(48, 14, 33, 0.863);
     font-family: monospace;
+    border: 5px whitesmoke solid;
+}
+
+.engaging-video{
+    text-align: center;
+    margin: 50px 0px 0px 0px;
 }
